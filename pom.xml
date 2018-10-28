@@ -5,7 +5,7 @@
 
     <groupId>andrii.tkachuk</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
     <modules>
         <module>pet-clinic-data</module>
         <module>petclinicweb</module>
@@ -43,11 +43,6 @@
             </plugin>
         </plugins>
     </build>
-
-    <scm>
-        <developerConnection>scm:git:git@github.com:andrey-tkachuk94/sfg-pet-clinic.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
 
 
 </project>
