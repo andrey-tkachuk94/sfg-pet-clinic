@@ -1,11 +1,13 @@
 package andrii.tkachuk.sfgpetclinic.services.map;
 
 import andrii.tkachuk.sfgpetclinic.model.Pet;
-import andrii.tkachuk.sfgpetclinic.services.CrudService;
+import andrii.tkachuk.sfgpetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+@Service
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Pet save(Pet object) {
         return super.save(object.getId(), object);
